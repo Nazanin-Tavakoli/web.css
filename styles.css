@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+.navbar {
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+margin: 10px;
+background-color: rgb(235, 230, 234);
+}
+
+.navbar img {
+    width: 300px;
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar{
+ position: sticky;
+} 
+
+.image-container {
+    display: flex;
+    position: relative; 
+  }
+  
+  .image-container img {
+    width: 100px; 
+    height: auto; 
+    margin: 10px; 
+  }
+  .price {
+    position: absolute;
+    top: 10px;
+    right: 1opx;
+    background-color: blanchedalmond;
+    padding: 5px;
+  }
+  h1{
+    padding: 25px;
+  }
+  #header {
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 254, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  #chat-container {
+    display: flex;
+    align-items: center;
+  }
+  #search-container {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+
+  }
+  footer {
+    display:flex;
+    text-align:start;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+margin: 10px;
+background-color: rgb(230, 212, 185);
+  }
+  button:hover {
+    background-color: blue;
+    color: white;
+
+  }
+  table {
+    padding: 30px;
+    margin: 30px;
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #eaeaea;
+  }
+  .navbar:hover {
+    color: darkred;
+  }
+  .image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  .image-container:hover img {
+    transform: scale(1.2);
+  }
+  
+footer img {
+    width: 200px;
+    height: 50%;
+
+}
